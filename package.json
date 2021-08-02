@@ -1,0 +1,19 @@
+{
+  "name": "serve-static-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/apis.js",
+    "dev": "ENV=dev node src/env.js",
+    "test": "ENV=test node src/env.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  }
+}
